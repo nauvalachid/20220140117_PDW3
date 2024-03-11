@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* Mengatur ulang margin dan padding default, serta menetapkan box-sizing ke border-box untuk semua elemen */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: red;
+    /* Penataan untuk elemen body: menggunakan flexbox untuk memusatkan konten, menetapkan warna latar belakang hitam, dan warna teks merah */
+}
+
+.card {
+    width: 450px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 60px rgba(255, 0, 0, 0.5);
+    padding: 20px;
+    /* Penataan untuk elemen card: lebar tetap, box-sizing diatur ke border-box, sudut dibulatkan, overflow dihilangkan, efek bayangan ditambahkan, dan padding diberikan */
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    /* Penataan untuk gambar di dalam card: lebar diatur 100% dari parent dan ditampilkan sebagai blok */
+}
+
+.card h1 {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px; 
+    /* Penataan untuk judul h1 di dalam card: menggunakan jenis huruf tertentu, menetapkan ukuran huruf, dan memberikan margin di bagian bawah */
+}
+
+.card p {
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 14px;
+    margin-bottom: 15px;
+    /* Penataan untuk paragraf di dalam card: menggunakan jenis huruf tertentu, menetapkan ukuran huruf, dan memberikan margin di bagian bawah */
+}
